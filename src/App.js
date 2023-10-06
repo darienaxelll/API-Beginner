@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
   const [movies, setMovies] = useState([]);
+  const [] = useState(false);
 
   async function fetchMovieHandler() {
     console.log("Clicked");
